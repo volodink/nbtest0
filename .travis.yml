@@ -2,8 +2,4 @@ language: cpp
 compiler:
   - g++
 install: cmake
-script:
-  - cd googletest && make && cd ..
-  - cd CopterLib && make && cd ..
-  - cd BasicApplication && make && cd ..
-  - cd TestApplication && make
+script: cd TestApplication && make
