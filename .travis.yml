@@ -13,4 +13,4 @@ addons:
     packages:
     - gcc-4.9
     - g++-4.9
-script: cd TestApplication && make
+script: cd TestApplication && make && ./dist/Debug/GNU-Linux/testapplication  
