@@ -4,3 +4,6 @@ compiler:
 install: cmake
 script:
   cd googletest && make
+  cd CopterLib && make
+  cd BasicApplication && make
+  cd TestApplication && make
