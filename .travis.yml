@@ -3,7 +3,7 @@ compiler:
   - gcc
 install: cmake
 script:
-  - cd googletest && make
-  - cd CopterLib && make
-  - cd BasicApplication && make
-  - cd TestApplication && make
+  - cd googletest && make && cd ..
+  - cd CopterLib && make && cd ..
+  - cd BasicApplication && make && cd ..
+  - cd TestApplication && make && cd ..
