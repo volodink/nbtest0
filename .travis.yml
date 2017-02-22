@@ -1,4 +1,6 @@
 language: cpp
+before_install:
+ - sudo apt update && sudo apt install g++ -y
 compiler:
   - g++
 install: cmake
