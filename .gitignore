@@ -1,3 +1,11 @@
+# NetBeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
 # Compiled Object files
 *.slo
 *.lo
