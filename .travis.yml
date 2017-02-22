@@ -1,11 +1,15 @@
 sudo: required
+
 language: cpp
+
 dist: trusty
 
 compiler:
   - g++
+
 install:
 - if [ "$CXX" = "g++" ]; then export CXX="g++-4.9" CC="gcc-4.9"; fi
+
 addons:
   apt:
     sources:
@@ -13,4 +17,5 @@ addons:
     packages:
     - gcc-4.9
     - g++-4.9
+
 script: cd TestApplication && make && ./dist/Debug/GNU-Linux/testapplication  
