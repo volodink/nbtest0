@@ -10,3 +10,7 @@
 TEST(BasicTest, TestEQ0) {
     EXPECT_EQ(add(1, 1), 2);
 }
+
+TEST(AdvancedTest, TestEQ0) {
+    EXPECT_EQ(0, 0);
+}
