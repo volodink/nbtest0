@@ -22,6 +22,7 @@ using namespace std;
 int main(int argc, char** argv) {
     cout << "Hello!" << endl;
     cout << add(1, 2) << endl;
+    cout << "world!" << endl;
     return 0;
 }
 

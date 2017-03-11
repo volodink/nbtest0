@@ -14,3 +14,7 @@ TEST(BasicTest, TestEQ0) {
 TEST(AdvancedTest, TestEQ0) {
     EXPECT_EQ(0, 0);
 }
+
+TEST(YetAnotherTest, TestEQ1) {
+    EXPECT_EQ(42, 42);
+}
